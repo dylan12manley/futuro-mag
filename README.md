@@ -19,3 +19,5 @@
 ***3:30 - 3:45*** Meeting with magazine man.
 
 ***3:45 - 4:00*** Cold Chillin
+
+***4:00 - 4:30*** Research eCommerce best practices

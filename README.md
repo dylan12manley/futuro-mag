@@ -14,4 +14,6 @@
 
 ***2:30 - 3:00*** Research mongo
 
-***3:00 - :*** Research stripes
+***3:00 - 3:30*** Research stripes
+
+***3:30 - 3:45*** Meeting with magazine man.

@@ -17,3 +17,5 @@
 ***3:00 - 3:30*** Research stripes
 
 ***3:30 - 3:45*** Meeting with magazine man.
+
+***3:45 - 4:00*** Cold Chillin

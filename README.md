@@ -12,4 +12,6 @@
 
 ***1:30 - 2:30*** plan out component tree
 
-***2:30 - :*** Research mongo
+***2:30 - 3:00*** Research mongo
+
+***3:00 - :*** Research stripes

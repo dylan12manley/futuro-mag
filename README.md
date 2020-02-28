@@ -10,4 +10,6 @@
 
 ***1:00 - 1:30:*** Re-draft mvp
 
-***1:30 - :*** and plan project
+***1:30 - 2:30*** plan out component tree
+
+***2:30 - :*** Research mongo

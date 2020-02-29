@@ -51,5 +51,7 @@
     rgba(150,155,191,.47) 100%),
     url("./../images/noise2.png");
   padding: 1.5vw;
+  padding: 2vh;
+  text-align: center;
 
 }

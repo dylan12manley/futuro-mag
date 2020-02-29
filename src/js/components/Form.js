@@ -37,50 +37,55 @@ class ConnectedForm extends Component {
     const { title, author, publishedDate, articleBody, image } = this.state;
     return (
       <form onSubmit={this.handleSubmit}>
-        <div className="newArticleForm">
+      <div className="newArticleForm">
           <div className="formLable"><label htmlFor="title">Title</label></div>
+          <div className="forminput">
           <input
             type="text"
             id="title"
             value={title}
             className='formInput'
             onChange={this.handleChange}
-          />
+          /></div>
           <div className="formLable"><label htmlFor="author">Author</label></div>
+          <div className="forminput">
           <input
             type="text"
             id="author"
             value={author}
             className='formInput'
             onChange={this.handleChange}
-          />
+          /></div>
           <div className="formLable"><label htmlFor="publishedDate">publishedDate</label></div>
+          <div className="forminput">
           <input
             type="text"
             id="publishedDate"
             value={publishedDate}
             className='formInput'
             onChange={this.handleChange}
-          />
+          /></div>
           <div className="formLable"><label htmlFor="articleBody">Article Body</label></div>
+          <div className="forminput">
           <input
             type="text"
             id="articleBody"
             value={articleBody}
             className='formInput'
             onChange={this.handleChange}
-          />
+          /></div>
           <div className="formLable"><label htmlFor="image">image</label></div>
+          <div className="forminput">
           <input
             type="text"
             id="image"
             value={image}
             className='formInput'
             onChange={this.handleChange}
-          />
-        </div>
+          /></div>
         <button type="submit">SAVE</button>
-      </form>
+        </div>
+        </form>
     );
   }
 }

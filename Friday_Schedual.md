@@ -23,3 +23,5 @@
 ***4:00 - 4:15*** Research eCommerce best practices
 
 ***4:15 - 4:30*** Research express js
+
+***4:30 - 5:00*** Research how to use Rudux

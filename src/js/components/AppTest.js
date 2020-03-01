@@ -4,7 +4,7 @@ import Form from "./Form";
 import Post from "./Post";
 import './../../styles/index.css';
 
-const App = () => (
+const AppTest = () => (
   <>
     <div className="body">
       <div className="topAndBottom">
@@ -25,4 +25,4 @@ const App = () => (
   </>
 );
 
-export default App;
+export default AppTest;

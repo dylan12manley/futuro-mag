@@ -7,12 +7,12 @@ export function forbiddenWordsMiddleware({ dispatch }) {
     return function(action) {
       // do your stuff
       if (action.type === ADD_ARTICLE) {
-
         const foundWord = forbiddenWords.filter(word =>
           action.payload.title.includes(word)
         );
 
         if (foundWord.length) {
+          console.log(action);
           return dispatch({ type: "FOUND_BAD_WORD" });
         }
       }

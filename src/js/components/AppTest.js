@@ -2,10 +2,14 @@ import React from "react";
 import List from "./List";
 import Form from "./Form";
 import Post from "./Post";
+import App from "./App";
 import './../../styles/index.css';
 
 const AppTest = () => (
   <>
+  <div>
+    <App />
+  </div>
     <div className="body">
       <div className="topAndBottom">
         <div className="topBody">

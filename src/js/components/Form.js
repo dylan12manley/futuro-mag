@@ -1,7 +1,12 @@
 import React, { Component } from "react";
-import { connect } from "react-redux";
+import Moment from 'moment';
+import { connect } from 'react-redux';
+import { v4 } from 'uuid';
+import constants from './../constants';
 import { addArticle } from "../actions/index";
 import './../../styles/forms.css';
+
+const { c } = constants;
 
 function mapDispatchToProps(dispatch) {
   return {

@@ -3,6 +3,10 @@ import Header from './Header';
 import Home from './Home';
 import Footer from './Footer';
 import './../../styles/index.css';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import constants from './../constants';
+const { c } = constants;
 
 const App = () => (
   <>

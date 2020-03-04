@@ -1,5 +1,7 @@
+import constants from './../constants';
 import { ADD_ARTICLE } from "../constants/action-types";
 import { DATA_LOADED } from "../constants/action-types";
+const { c } = constants;
 
 const initialState = {
   articles: [],

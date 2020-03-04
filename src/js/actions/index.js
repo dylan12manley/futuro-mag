@@ -4,6 +4,7 @@ import firebase from 'firebase';
 const { firebaseConfig } = constants;
 
 firebase.initializeApp(firebaseConfig);
+const articles = firebase.database().ref('articles');
 
 export function addArticle(payload) {
   return { type: "ADD_ARTICLE", payload }

@@ -1,4 +1,3 @@
-import { ADD_ARTICLE } from "../constants/action-types";
 import constants from './../constants';
 import firebase from 'firebase';
 const { firebaseConfig } = constants;

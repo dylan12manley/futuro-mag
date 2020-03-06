@@ -1,7 +1,7 @@
 import React from "react";
-import Header from './Header';
+import Art from './Art';
 import Home from './Home';
-import Footer from './Footer';
+import LandingPage from './LandingPage';
 import './../../styles/index.css';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
@@ -13,8 +13,9 @@ const App = () => (
   <>
     <div className="body">
     <Switch>
-    <Header />
-    <Footer />
+      <Route exact path='/' component={LandingPage} />
+      <Route path='/home' component={Home} />
+      <Route path='/art' component={Art} />
     </Switch>
     <h1>body</h1>
     <div className="topAndBottom">

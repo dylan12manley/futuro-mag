@@ -11,3 +11,5 @@
 12:00 - 2:00: practice creating an app that use firebase
 
 2:00 - 3:00:  lunch
+
+3:00 - 4:00: attempt to integrate redux in practice project

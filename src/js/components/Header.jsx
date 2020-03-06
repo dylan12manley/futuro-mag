@@ -9,11 +9,12 @@ function Header(){
     <div id="header">
     <Navbar>
       <Nav className="mr-auto">
-      <Link className="companyName" to='/home'>Futuro Magazine</Link>
+      <Link className="companyName" to='/home'>Futuro</Link>
       <Link to='/art' className="navLink" >Art</Link>
       <Link to='/fashion' className="navLink" >Fashion</Link>
       <Link to='/sound' className="navLink" >Sound</Link>
       <Link to='/film' className="navLink" >Film</Link>
+      <Link to='/people' className="navLink" >People</Link>
       </Nav>
     </Navbar>
   </div>

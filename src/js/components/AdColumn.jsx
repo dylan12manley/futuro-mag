@@ -38,7 +38,6 @@ function AdColumn(){
   return (
   <>
   <div className="adColumnBody">
-  <Image src={monotoneBar1}/>
     {adList.map((ad, index) =>
       <a href={ad.url}>
         <Image src={ad.img}/>

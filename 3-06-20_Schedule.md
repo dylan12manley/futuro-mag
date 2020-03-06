@@ -4,4 +4,6 @@
 
 8:30 - 9:30 :work on displaying homepage correctly
 
-9:30 - forever: reasearch firebase and how to use it correctly
+9:30 - 10:45: create new project following tutorial
+
+10:45 - 12:00: research firebase and how to use it correctly

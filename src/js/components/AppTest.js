@@ -8,6 +8,9 @@ import './../../styles/index.css';
 const AppTest = () => (
   <>
   <div>
+    <List/ >
+    <Post/ >
+    <Form/ >
     <App />
   </div>
   </>

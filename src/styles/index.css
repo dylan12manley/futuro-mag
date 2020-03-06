@@ -6,15 +6,27 @@
 
 }
 body {
-  padding: 5vw;
   background-image: linear-gradient(
     269deg,
     rgba(60, 110, 113, 0.23) 35%,
     rgba(244, 172, 141, 0.1) 100%
   ),
     url("./../images/noise3.png");
+    margin: 0px;
+    padding: 0px;
 }
 /* STYLES FOR APP.JS */
+#landingPage {
+  background-image: url("./../images/start.png");
+  margin: 0, auto;
+  padding: 0px;
+  height: 120vw;
+}
+
+.startImg {
+  height: 30%;
+}
+
 
 .body {
   font: 14px "Century Gothic", Futura, sans-serif;

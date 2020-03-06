@@ -12,10 +12,10 @@ function Home(){
     <Header/>
     <CarouselHome/>
     <Row>
-      <Col>
+      <Col xs={8} >
         <MainArticleFeed/>
       </Col>
-      <Col>
+      <Col >
         <AdColumn/>
       </Col>
     </Row>

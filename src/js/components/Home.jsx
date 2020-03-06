@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
-import ArticleFeed from './ArticleFeed'
+import MainArticleFeed from './MainArticleFeed'
 import AdColumn from './AdColumn'
 import CarouselHome from './CarouselHome'
 import { Col, Row } from 'react-bootstrap'
@@ -13,7 +13,7 @@ function Home(){
     <CarouselHome/>
     <Row>
       <Col>
-        <ArticleFeed/>
+        <MainArticleFeed/>
       </Col>
       <Col>
         <AdColumn/>

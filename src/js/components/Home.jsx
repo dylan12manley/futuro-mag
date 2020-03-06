@@ -15,7 +15,7 @@ function Home(){
       <Col xs={8} >
         <MainArticleFeed/>
       </Col>
-      <Col >
+      <Col md={4} >
         <AdColumn/>
       </Col>
     </Row>

@@ -1,6 +1,8 @@
 import React from 'react'
 import Carousel  from 'react-bootstrap/Carousel';
 import triangles1 from './../../images/tri1.png'
+import futuro1 from './../../images/Futuro1.jpg'
+import "./../../styles/carousel1.css"
 
 const featuredArticles = [
   {
@@ -8,7 +10,7 @@ const featuredArticles = [
     author: 'First Author',
     publishDate: 'March 3rd, 2020',
     articleTeaser: 'This is a story teaser. It could be a brief description of the article or a just the first couple senteneces.',
-    mainImage: triangles1
+    mainImage: futuro1
   },
   {
     title: 'Seccond Story Title',
@@ -26,11 +28,13 @@ function  CarouselHome(){
     <Carousel>
     {featuredArticles.map((article, index) =>
       <Carousel.Item>
+      <div className='carouselImg'>
         <img
           className="d-block w-100 carouselImg"
           src={article.mainImage}
           alt="an image of a article"
         />
+      </div>
         <Carousel.Caption>
           <h3>{article.title}</h3>
           <h3>{article.author}</h3>

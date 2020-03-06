@@ -1,5 +1,8 @@
-.articleSubtitle {
-
+.articleFeed {
+  padding: 10px;
+}
+.cardClass {
+  padding: 10px;
 }
 .publishDate {
   float: right;

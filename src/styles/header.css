@@ -1,0 +1,26 @@
+#header {
+  display: flex;
+  background-image: url(https://miro.medium.com/max/2838/1*ExmKDQHlzPFoIX5dnYHlmA.png);
+  flex-direction: column;
+  align-items: left;
+  width: 100vw;
+  justify-content: center;
+}
+
+.mr-auto {
+  display: flex;
+  font-family: Montserrat;
+}
+
+.companyName {
+  margin-right: 25vw;
+  margin-left: 5%;
+  color: #3D314A;
+  text-decoration: none;
+}
+
+.navLink{
+  margin-right: 10%;
+  color: #3D314A;
+  text-decoration: none;
+}

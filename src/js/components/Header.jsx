@@ -1,18 +1,21 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown }from 'react-bootstrap';
+import { Navbar, Nav}from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import header from './../../styles/header.css'
 
 function Header(){
   return (
     <>
     <div id="header">
-  <Navbar>
-  <Link to='/' className="companyName" >Furturo Magazine</Link>
-
-    <Nav className="mr-auto">
-    </Nav>
-  </Navbar>
+    <Navbar>
+      <Nav className="mr-auto">
+      <Link className="companyName" to='/home'>Futuro Magazine</Link>
+      <Link to='/art' className="navLink" >Art</Link>
+      <Link to='/fashion' className="navLink" >Fashion</Link>
+      <Link to='/sound' className="navLink" >Sound</Link>
+      <Link to='/film' className="navLink" >Film</Link>
+      </Nav>
+    </Navbar>
   </div>
   </>
   );

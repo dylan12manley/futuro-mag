@@ -19,7 +19,6 @@ const App = () => (
       <Route exact path='/' component={LandingPage} />
       <Route path='/home' component={Home} />
       <Route path='/art' component={Art} />
-      <Route path='/articleList' component={ArticleList} />
       <Route component={Error404} />
     </Switch>
     </div>
@@ -27,3 +26,5 @@ const App = () => (
 );
 
 export default App;
+
+// <Route path='/articleList' component={ArticleList} />

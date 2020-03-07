@@ -1,5 +1,6 @@
 import React from "react";
 import Art from './Art';
+import Admin from './Admin';
 import Home from './Home';
 import LandingPage from './LandingPage';
 import ArticleList from './ArticleList';
@@ -19,6 +20,7 @@ const App = () => (
       <Route exact path='/' component={LandingPage} />
       <Route path='/home' component={Home} />
       <Route path='/art' component={Art} />
+      <Route path='/adminHiddenPage' component={Admin} />
       <Route component={Error404} />
     </Switch>
     </div>

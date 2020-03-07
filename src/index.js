@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from 'react-dom';
 import { Provider } from "react-redux";
 import { HashRouter } from 'react-router-dom';
-import storeTest from "./js/store/index";
 import AppTest from "./js/components/AppTest";
 import rootReducer from './js/reducers/index';
 import { createStore, applyMiddleware } from 'redux';
@@ -16,7 +15,7 @@ let unsubscribe = store.subscribe(() =>
 
 const render = (Component) => {
   ReactDOM.render(
-    <Provider store={storeTest}>
+    <Provider store={store}>
       <HashRouter>
         <AppTest />
       </HashRouter>

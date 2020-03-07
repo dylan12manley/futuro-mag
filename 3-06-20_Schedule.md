@@ -15,3 +15,5 @@
 3:00 - 4:00: attempt to integrate redux in practice project
 
 4:00 - 5:00: attempt to integrate redux in futuro mag project
+
+5:00 - 6:30: create new project, copy some code from original, in attempt to have less clutter

@@ -9,6 +9,8 @@ export default (state = {}, action) => {
           publishDate,
           articleBody,
           mainImage,
+          otherImage,
+          catagory,
           id } = action;
 
   switch (action.type) {

@@ -2,6 +2,7 @@ import React from "react";
 import Art from './Art';
 import Home from './Home';
 import LandingPage from './LandingPage';
+import ArticleList from './ArticleList';
 import './../../styles/index.css';
 import Error404 from './Error404';
 import { connect } from 'react-redux';
@@ -18,6 +19,7 @@ const App = () => (
       <Route exact path='/' component={LandingPage} />
       <Route path='/home' component={Home} />
       <Route path='/art' component={Art} />
+      <Route path='/articleList' component={ArticleList} />
       <Route component={Error404} />
     </Switch>
     </div>

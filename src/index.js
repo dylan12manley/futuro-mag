@@ -6,8 +6,7 @@ import AppTest from "./js/components/AppTest";
 import rootReducer from './js/reducers/index';
 import { createStore, applyMiddleware } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-
-const store = createStore(rootReducer, applyMiddleware(thunkMiddleware));
+import store from './js/store/index'
 
 let unsubscribe = store.subscribe(() =>
   console.log(store.getState())

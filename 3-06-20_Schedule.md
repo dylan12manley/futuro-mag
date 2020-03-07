@@ -14,4 +14,4 @@
 
 3:00 - 4:00: attempt to integrate redux in practice project
 
-3:00 - 4:00: attempt to integrate redux in futuro mag project
+4:00 - 5:00: attempt to integrate redux in futuro mag project

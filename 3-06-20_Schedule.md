@@ -13,3 +13,5 @@
 2:00 - 3:00:  lunch
 
 3:00 - 4:00: attempt to integrate redux in practice project
+
+3:00 - 4:00: attempt to integrate redux in futuro mag project

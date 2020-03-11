@@ -6,13 +6,13 @@ import Post from "./Post";
 import App from "./App";
 import './../../styles/index.css';
 
-export default function AppTest() {
+export default function Admin() {
   return (
     <>
       <div>
         <ArticleList/ >
         <NewArticleForm/ >
-        <App />
+        <Article />
       </div>
     </>
   );

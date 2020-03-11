@@ -17,12 +17,16 @@ function mapDispatchToProps(dispatch) {
 class ConnectedForm extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      title: "",
-      author: "",
-      publishDate: "",
-      articleBody: "",
-      mainImage: ""
+    this.state =
+      masterArticleList = {
+      title: '',
+      author: '',
+      publishDate: '',
+      articleBody: '',
+      mainImage: '',
+      otherTimage: '',
+      catagory: '',
+      id: ''
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -39,11 +43,12 @@ class ConnectedForm extends Component {
             publishDate,
             articleBody,
             mainImage } = this.state;
-    this.props.addArticle({ title,
-                            author,
-                            publishDate,
-                            articleBody,
-                            mainImage });
+    this.props.addArticle({ author,
+    publishDate,
+    articleBody,
+    mainImage,
+    otherTimage,
+    catagory  });
     this.setState({ title: "",
                     author: "",
                     publishDate: "",

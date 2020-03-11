@@ -4,6 +4,7 @@ import tyler from './../../images/tyler.jpg';
 import kenith from './../../images/kenith.jpg';
 import rick from './../../images/RickFuturo.jpg';
 import stephen1 from './../../images/stephen1.jpg';
+import savage from './../../images/savageSoul.jpeg';
 import "./../../styles/mainArticlesFeed.css"
 
 const fullArticlesList = [
@@ -18,7 +19,7 @@ const fullArticlesList = [
     title: 'Kenneth Cappello’s Photography is Flithy',
     author: 'Joey P',
     publishDate: 'Febuary 19th, 2020',
-    articleTeaser: 'Kenneth Cappelo’s photography makes me feel a certain type of way , I think its the way he captures the artist in there natural essence but also makes them look dope as fuck. You have have cunt’s take lame pictures of you because they be kinda hating on the Low lol , That’s not Kenneth Cappelo , he’s def not a hater with camera. He’s wants to capture your energy and see you win , gotta love a mothafucka like that. Can def see why the stars love him. Tip , don’t give mofo’s the camera that aint trying to see you win. Real Talk.',
+    articleTeaser: 'Kenneth Cappelo’s photography makes me feel a certain type of way , I think its the way he captures the artist in there natural essence but also makes them look dope as fuck. You have have cunt’s take lame pictures of you because they be kinda hating on the Low lol , That’s not Kenneth Cappelo , he’s def not a hater with camera.',
     mainImage: kenith
   },
   {
@@ -29,11 +30,11 @@ const fullArticlesList = [
     mainImage: stephen1
   },
   {
-    title: 'Third Story Title',
-    author: 'Third Author',
-    publishDate: 'March 3rd, 2020',
-    articleTeaser: 'This is a story teaser. It could be a brief description of the article or a just the first couple senteneces.',
-    mainImage: tyler
+    title: 'Savage Seoul , Skoot Designer MLMA @melovemealot',
+    author: 'Joey P',
+    publishDate: 'Febuary 20th, 2020',
+    articleTeaser: 'We here at Futuro loves us some street wear , and we also understand that every cunt and there momma is a streetwear designer of artist. So in saying that its hard to stand out from the pack. Well MLMA from Korea has done just that. Her dragon ball Z , Kung fu , Anime inspired gear is pretty sick. We aint gonna give her to many words but just enough to say we see you. Outtie 5000 G.',
+    mainImage: savage
   },
   {
     title: 'Fourth Story Title',
